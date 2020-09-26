@@ -1,0 +1,14 @@
+# This file is used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+#Minimum System Requirements:
+#Dual Core CPU or better
+#2 GB RAM or more
+#100 MB HDD space or more
+#[MUST]Stable Internet Connection
+
+
+#Python
+#Check if python is installed: python --version
+
+flask

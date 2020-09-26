@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A R T F L I X</title>
+  <link rel="stylesheet" href="../static/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- ORIGINAL NAV BAR -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <img src="https://fontmeme.com/permalink/200429/a43fc5e06ec186828d5f025d260f3124.png" alt="netflix-font"
+            border="0" width="60%">
+        </a>
+      </div>
+      <h3>
+        Current User is: <span id="user-display"></span>
+      </h3>
+      <form class="form-inline my-2 my-lg-0">
+        <input id="user-id-text" class="form-control mr-sm-2" type="text" placeholder="Enter user id...">
+        <button id="view-button" class="btn btn-secondary my-2 my-sm-0" type="submit">View</button>
+      </form>
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h3 class="text-center">Search for Movies</h3>
+
+      <form id="searchForm">
+        <input type="text" class="form-control" id="searchText" placeholder="Search Movie...">
+      </form>
+    </div>
+  </div>
+
+  <!-- adding all the movies in the index page into this div -->
+  <div class="container">
+    <div id="movies" class="row"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+  <script src="../static/main.js"></script>
+
+</body>
+
+</html>

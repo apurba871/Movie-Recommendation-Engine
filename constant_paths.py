@@ -1,0 +1,2 @@
+CONFIG_FILE_PATH = 'C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\config\\db_properties.json'
+LOG_FILE_PATH = 'C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\logs'

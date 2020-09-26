@@ -1,0 +1,46 @@
+{
+    "AverageRating": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "average_rating"
+    },
+    "Genre": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "genid_gen"
+    },
+    "MovieGenre": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "movie_gen"
+    },
+    "Movie": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "movies_out"
+    },
+    "Rating": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "ratings_out"
+    },
+    "UserMovieCount": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "user_movie_genre_wise_count"
+    },
+    "Recommendation": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "recommendation"
+    },
+    "TempRecommendation": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "temp_recommendation"
+    },
+    "MovieCycle": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "movie_cycle"
+    },
+    "Link": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "links"
+    },
+    "GenerateRecommendation": {
+        "dbURL": "C:\\Users\\Apurba\\PycharmProjects\\recommendation-engine-iteration-4\\db\\all.db",
+        "tableName": "generating_recommendation"
+    }
+}
